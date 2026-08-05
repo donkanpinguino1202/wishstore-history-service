@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: wishstore-history-service
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/wishstore_history_db
+    username:
+    password:
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+server:
+  port: 8083
