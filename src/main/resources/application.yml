@@ -3,7 +3,7 @@ spring:
     name: wishstore-history-service
 
   datasource:
-    url: jdbc:mysql://localhost:3306/wishstore_history_db
+    url: jdbc:mysql://localhost:3306/wishstore_history_db.sql
     username:
     password:
 
