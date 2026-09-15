@@ -3,9 +3,9 @@ spring:
     name: wishstore-history-service
 
   datasource:
-    url: jdbc:mysql://localhost:3306/wishstore_history_db.sql
-    username:
-    password:
+    url: ${DB_URL}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
 
   jpa:
     hibernate:
@@ -16,4 +16,4 @@ spring:
         format_sql: true
 
 server:
-  port: 8083
+  port: ${SERVER_PORT:8083}
